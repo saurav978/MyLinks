@@ -1,3 +1,9 @@
+import Card from "../component/Card";
+
 export default function TweetsPage() {
-  return <div>tweet page</div>;
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 }
